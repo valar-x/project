@@ -1,0 +1,1144 @@
+body {
+    background: url(../images/wcimg/game1.jpg);
+    z-index: 0;
+    color: #707070;
+    font-family: 微软雅黑, 'Heiti SC', 黑体, Arial;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* 头部大图 */
+
+.hdr {
+    display: block;
+    width: 100%;
+}
+
+.hdr img {
+    width: 100%;
+}
+
+
+/* 推荐书籍部分 */
+
+.main {
+    padding: 60px 70px;
+    padding-bottom: 0;
+    position: relative;
+    background: url(../images/wcimg/game6.png);
+    z-index: -0;
+}
+
+.book {
+    position: relative;
+    /* width: 5000px; */
+}
+
+
+/* 图片部分 */
+
+.book img {
+    /* float: left; */
+    width: 342px;
+    height: 413px;
+}
+
+
+/* 文字部位 */
+
+
+/* 标题部分 */
+
+.title {
+    position: absolute;
+    top: 20px;
+    left: 430px;
+    padding: 0 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.title a {
+    color: #B2262E;
+}
+
+
+/* 介绍部分 */
+
+.book p {
+    position: absolute;
+    top: 95px;
+    left: 430px;
+    width: 550px;
+    font-size: 16px;
+    color: #707070;
+    line-height: 25px;
+    margin-bottom: 15px
+}
+
+
+/* 标题花边 */
+
+body .hua1 {
+    position: absolute;
+    width: 22px;
+    height: 33px;
+    background: url(../images/wcimg/game7.png) no-repeat;
+}
+
+body .hua2 {
+    position: absolute;
+    width: 22px;
+    height: 33px;
+    background: url(../images/wcimg/game8.png);
+}
+
+.title .hua1 {
+    left: 0;
+    top: 6px;
+}
+
+.title .hua2 {
+    top: 6px;
+    right: 0;
+}
+
+
+/* 轮播图按钮 */
+
+.book .swiper-container-horizontal>.swiper-pagination-bullets {
+    /* position: absolute; */
+    bottom: 125px;
+    left: -68px;
+    width: 100%;
+}
+
+.book .swiper-pagination-bullet-active {
+    background: url(../images/wcimg/game25.png) no-repeat right bottom;
+}
+
+.swiper-pagination span {
+    width: 27px;
+    height: 25px;
+    margin-right: 15px;
+    background: url(../images/wcimg/game25.png) no-repeat;
+}
+
+
+/* 宽展阅读 */
+
+.more {
+    position: absolute;
+    bottom: 50px;
+    left: 430px;
+    z-index: 999;
+}
+
+.more a {
+    display: inline-block;
+    width: 252px;
+    height: 48px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 48px;
+    vertical-align: middle;
+    margin-right: 15px;
+    background: url(../images/wcimg/game10.png);
+}
+
+a:hover {
+    color: #C2A680;
+}
+
+
+/* 头部底部花纹 */
+
+.bg-ig1,
+.bg-ig2 {
+    width: 1230px;
+    height: 73px;
+    background-image: url(../images/wcimg/game2.png);
+}
+
+.bg-ig2 {
+    background-image: url(../images/wcimg/game3.png);
+}
+
+
+/* 出版大字 */
+
+.publish {
+    position: absolute;
+    top: 70px;
+    right: -70px;
+    width: 189px;
+    height: 268px;
+    background: url(../images/wcimg/chuban.png);
+}
+
+
+/* 文创部分 */
+
+.wenc {
+    position: relative;
+    padding-top: 105px;
+    padding-left: 20px;
+    margin-bottom: 320px;
+}
+
+.text {
+    width: 520px;
+    /* background-color: pink; */
+}
+
+.text p {
+    font-size: 16px;
+    color: #707070;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.text-hd {
+    position: relative;
+    font-size: 34px;
+    line-height: 36px;
+    padding-top: 80px;
+}
+
+.text-hd a {
+    display: inline-block;
+    padding-left: 20px;
+    color: #263D6F;
+    margin-bottom: 20px;
+}
+
+.text-hd .hua1 {
+    top: 80px;
+    left: 0;
+}
+
+
+/* 文创推荐链接 */
+
+.wenc .more {
+    bottom: -190px;
+    left: 0;
+    width: 550px;
+}
+
+.wenc .more a {
+    margin-top: 15px;
+}
+
+
+/* 文创大字 */
+
+.wcimg {
+    position: absolute;
+    top: 160px;
+    right: 340px;
+    width: 188px;
+    height: 328px;
+    background: url(../images/wcimg/wenchuang.png);
+}
+
+
+/* 右面两图 */
+
+.wenc .ico1 {
+    position: absolute;
+    top: 0;
+    right: -65px;
+}
+
+.wenc .ico2 {
+    position: absolute;
+    top: 230px;
+    right: -20px;
+    z-index: 1;
+}
+
+
+/* 壁纸部分 */
+
+
+/* 左边大鬼，用js给背景 */
+
+.parper {
+    position: relative;
+    height: 570px;
+}
+
+.parper .ico3 {
+    display: none;
+    position: absolute;
+    top: -100px;
+    left: -70px;
+    width: 416px;
+    height: 482px;
+    background: url(../images/wcimg/s585356cc32567.png);
+    z-index: 1;
+    transition: all 2s;
+}
+
+
+/* 壁纸大字 */
+
+.bizhi {
+    position: absolute;
+    top: 0;
+    left: 90px;
+    width: 290px;
+    height: 202px;
+    background: url(../images/wcimg/game14-1.png);
+}
+
+.piclist {
+    position: absolute;
+    top: 0;
+    left: 255px;
+    width: 833px;
+    height: 570px;
+    /* background-color: pink; */
+}
+
+
+/* 四妈开泰 */
+
+.piclist a {
+    position: absolute;
+    width: 270px;
+    height: 315px;
+    /* background-color: yellow; */
+}
+
+.piclist a span {
+    display: none;
+    position: absolute;
+    left: 13px;
+    top: 15px;
+    width: 270px;
+    height: 315px;
+    background: url(../images/wcimg/game15.png) no-repeat;
+}
+
+.piclist a:nth-child(1) {
+    bottom: 5px;
+    left: 0;
+}
+
+.piclist a:nth-child(2) {
+    bottom: 5px;
+    right: 0;
+}
+
+.piclist a:nth-child(3) {
+    bottom: 5px;
+    right: 282px;
+}
+
+.piclist a:nth-child(4) {
+    top: 5px;
+    left: 140px;
+}
+
+
+/* 右面文字 */
+
+.wenzi {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 420px;
+    height: 143px;
+    text-align: center;
+}
+
+.wenzi h1 {
+    display: inline-block;
+    font-size: 34px;
+    line-height: 36px;
+    font-weight: normal;
+    color: #5C1417;
+}
+
+.wenzi .hua1 {
+    top: 0;
+    left: 50px;
+}
+
+.wenzi p {
+    color: #474747;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.wenzi .more {
+    left: 95px;
+    bottom: 0;
+    width: 252px;
+}
+
+
+/* 皮肤部分 skin  */
+
+.skin {
+    position: relative;
+}
+
+.txt {
+    width: 510px;
+    /* padding-top: 90px;
+    padding-left: 460px; */
+    margin: 150px 0 0 400px;
+}
+
+.txt a {
+    font-size: 34px;
+    line-height: 36px;
+    display: inline-block;
+    padding-left: 20px;
+    color: #415F69;
+}
+
+.txt .hua1 {
+    left: 395px;
+}
+
+.txt p {
+    color: #474747;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.more1 {
+    background: url(../images/wcimg/game10.png) no-repeat;
+    margin: 30px 0 0 40px;
+}
+
+.more1 a {
+    display: inline-block;
+    width: 252px;
+    height: 48px;
+    font-size: 20px;
+    color: #474747;
+    line-height: 48px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 皮肤背景 */
+
+.pifu {
+    position: absolute;
+    top: -135px;
+    left: -70px;
+    background: url(../images/wcimg/game43.png);
+    width: 1225px;
+    height: 523px;
+    z-index: -1;
+}
+
+
+/* 滚球的狮子 */
+
+.biglion {
+    position: absolute;
+    top: -45px;
+    left: 35px;
+    z-index: 1;
+}
+
+.smlion {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: absolute;
+    top: 64px;
+    right: 95px;
+}
+
+.smlion img {
+    width: 100%;
+}
+
+
+/* 三图起飞 */
+
+.item {
+    width: 1300px;
+    height: 248px;
+    margin-top: 100px;
+    z-index: 1;
+}
+
+.item li {
+    float: left;
+    width: 364px;
+    height: 248px;
+    overflow: hidden;
+    z-index: 999;
+    margin: 5px;
+}
+
+.item li img {
+    width: 100%;
+}
+
+.item li a {
+    position: relative;
+}
+
+.download {
+    /* display: none; */
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    top: -23px;
+    left: 152px;
+    background-image: url(../images/wcimg/game44.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.item li img:hover .download {
+    display: block;
+    background: rgba( 0 0 0 0.5);
+    z-index: 1;
+}
+
+
+/* 动漫部分 */
+
+.cartoon {
+    margin-top: 80px;
+}
+
+
+/* 上半部分 */
+
+.tit {
+    position: relative;
+    text-align: center;
+}
+
+.tit a {
+    font-size: 34px;
+    line-height: 36px;
+    color: #9B4E50;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.tit .hua1 {
+    right: 607px;
+}
+
+.tit p {
+    color: #474747;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.tit .more1 {
+    position: absolute;
+    top: 115px;
+    left: 400px;
+}
+
+.tit .more1 a {
+    display: inline-block;
+    width: 252px;
+    height: 48px;
+    font-size: 20px;
+    color: #474747;
+    line-height: 48px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 四图并飞 */
+
+.pte {
+    width: 499px;
+    height: 430px;
+    margin-left: -50px;
+}
+
+.pte img {
+    width: 100%;
+}
+
+.cartoon ul {
+    width: 120%;
+}
+
+.cartoon ul li {
+    position: relative;
+    float: left;
+    margin-top: 132px;
+    margin-left: 10px;
+    background: rgba( 0 0 0 0.5);
+}
+
+.cartoon ul li p {
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    bottom: 25px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+.make50 {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 0.8s ease;
+    z-index: 1;
+}
+
+.make50:hover {
+    opacity: 0;
+}
+
+
+/* 游戏部分 */
+
+.game {
+    position: relative;
+    height: 550px;
+    margin-bottom: 30px;
+}
+
+.game-hd {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: -100px;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 55px;
+    transition: 2s;
+}
+
+.game-hd h1 {
+    display: inline-block;
+    font-size: 34px;
+    line-height: 36px;
+    font-weight: normal;
+    color: #8C6038;
+}
+
+.game-hd .hua1 {
+    top: 0px;
+    left: -25px;
+}
+
+.game-hd p {
+    color: #474747;
+    font-size: 20px;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-left: -25px;
+}
+
+.game .more {
+    width: 252px;
+    bottom: 157px;
+    left: 28px;
+}
+
+.game .img {
+    position: absolute;
+    left: 0px;
+    bottom: 15px;
+}
+
+
+/* 大背景 过渡*/
+
+.game-img1 {
+    display: none;
+    position: absolute;
+    right: -171px;
+    top: 68px;
+    width: 907px;
+    height: 518px;
+    background: url(../images/wcimg/s58535685318b3.png);
+    z-index: 1;
+    transition: all 2s;
+}
+
+
+/* 背景文字 */
+
+.game-img2 {
+    position: absolute;
+    top: 50px;
+    right: 245px;
+    width: 291px;
+    height: 179px;
+    background: url(../images/wcimg/game20-1.png);
+}
+
+
+/* APP部分 */
+
+.app {
+    margin-top: 200px;
+    position: relative;
+    height: 450px;
+}
+
+
+/* 三个背景图皇上龙APP */
+
+.king {
+    position: absolute;
+    top: -70px;
+    left: -71px;
+    width: 230px;
+    height: 409px;
+    background: url(../images/wcimg/king.png);
+}
+
+.appimg {
+    position: absolute;
+    top: -50px;
+    right: -71px;
+    width: 102px;
+    height: 334px;
+    background: url(../images/wcimg/app.png);
+}
+
+.long {
+    position: absolute;
+    right: -71px;
+    bottom: 100px;
+    width: 481px;
+    height: 364px;
+    background: url(../images/wcimg/long.png);
+}
+
+
+/* 小指示 */
+
+.smbtn {
+    position: absolute;
+    left: 316px;
+    bottom: 260px;
+    width: 14px;
+    height: 24px;
+    background: url(../images/wcimg/game42.png);
+}
+
+
+/* .隐藏轮播按钮 */
+
+.hiddenbox {
+    width: 335px;
+    height: 580px;
+    overflow: hidden;
+    /* background-color: yellow; */
+    overflow: hidden;
+    position: absolute;
+    top: -78px;
+    left: -25px;
+}
+
+
+/* 轮播图文字 */
+
+.wotule {
+    position: absolute;
+    right: -400px;
+    top: 20px;
+    width: 350px;
+    height: 400px;
+}
+
+.wotule a {
+    font-size: 34px;
+    line-height: 36px;
+    display: inline-block;
+    padding-left: 20px;
+    color: #263D6F;
+    margin-bottom: 20px;
+}
+
+.wotule p {
+    font-size: 16px;
+    color: #707070;
+    line-height: 24px;
+}
+
+
+/* 下载按钮 */
+
+.dw-ios {
+    margin: 0;
+    margin-top: 50px;
+}
+
+.dw-and {
+    margin-top: -10px;
+}
+
+.dw-ios a,
+.dw-and a {
+    width: 151px;
+    height: 45px;
+    background: url(../images/wcimg/game41.png) no-repeat;
+}
+
+.dw-and a {
+    padding: 0;
+    margin: 0;
+    background: url(../images/wcimg/game41.png) bottom no-repeat;
+}
+
+
+/* 底部 */
+
+.footer {
+    background: #272727;
+    padding: 30px 0 27px;
+}
+
+#footer a:hover {
+    color: #909090;
+}
+
+#footer {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    height: 100%;
+}
+
+#footer a {
+    color: #fff;
+}
+
+#footer img {
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    width: 282px;
+    margin-left: -141px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+#footer .btns {
+    margin-top: 15px;
+}
+
+#footer .btns a:hover {
+    color: #909090;
+}
+
+#footer .btns a {
+    display: inline-block;
+    height: 28px;
+    line-height: 26px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    color: #fff;
+}
+
+#footer .proposal {
+    margin-top: 15px;
+}
+
+.xiahua ul {
+    display: none;
+}
+
+#footer .num .inner {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+#footer .num .inner i {
+    font-style: normal;
+    display: inline-block;
+    font-size: 14px;
+    width: 20px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background: #404040;
+    margin: 0 1px;
+}
+
+#footer .foot {
+    padding-bottom: 5px;
+}
+
+#footer .code {
+    position: absolute;
+    left: 50%;
+    top: 65px;
+    margin-left: 360px;
+    z-index: 110;
+}
+
+#footer .code a {
+    display: block;
+    background: url(../images/wcimg/ico_hand.png) center center no-repeat;
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+}
+
+@keyframes chand {
+    0% {}
+    100% {
+        transform: translate(5px, 5px);
+    }
+}
+
+#footer .code a:hover img {
+    display: block;
+}
+
+#footer .code a::after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    top: 55%;
+    background: url(../images/wcimg/ico_hand2.png) center center no-repeat;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    animation: chand .3s linear 0s infinite alternate;
+}
+
+
+/* .footer {
+    margin-top: 60px;
+    background: #272727;
+    padding: 30px 0 27px;
+}
+
+.ft {
+    position: relative;
+    height: 140px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.ft i {
+    display: inline-block;
+    width: 20px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background: #404040;
+    margin: 0 3px;
+}
+
+.ft ul {
+    margin-top: 20px;
+    margin-left: 325px;
+}
+
+.ft ul li {
+    float: left;
+    height: 24px;
+    width: 72px;
+}
+
+.ft ul li a {
+    color: #fff;
+} */
+
+
+/* .suggest {
+    display: inline-block;
+    height: 28px;
+    line-height: 26px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    color: #fff;
+    margin-top: 10px;
+} */
+
+
+/* 二维码 */
+
+
+/* .code {
+    position: absolute;
+    right: 230px;
+    top: 040px;
+    background: url(../images/wcimg/ico_hand.png) center center no-repeat;
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+} */
+
+
+/* .code .erweima {
+    position: absolute;
+    top: -480px;
+    left: -122px;
+    display: none;
+} */
+
+
+/* 鼠标经过出现二维码照片 */
+
+
+/* .code:hover .erweima {
+    display: block;
+} */
+
+
+/* 小手 */
+
+
+/* .code::after {
+    content: '';
+    position: absolute;
+    top: 22px;
+    right: -10px;
+    width: 26px;
+    height: 25px;
+    background: url(../images/wcimg/ico_hand2.png);
+} */
+
+
+/* ---------------------------------------------------------------------- */
+
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,900|Roboto:400,700");
+*/ body section.slideshow {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+
+/* 左侧位置 */
+
+body section.slideshow ul.navigation {
+    position: absolute;
+    display: block;
+    width: 520px;
+    height: 520px;
+    padding: 0;
+    margin: 0;
+    left: -205px;
+    top: 337px;
+    margin-top: -320px;
+    z-index: 10;
+}
+
+
+/* 轮播图按钮位置 */
+
+body section.slideshow ul.navigation li.navigation-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 95px;
+    height: 95px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: border 0.6s ease-in-out;
+}
+
+
+/* 左侧按钮 */
+
+body section.slideshow ul.navigation li.navigation-item .background-holder {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 95px;
+    height: 95px;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.6s ease-in-out, visibility 0.6s ease-in-out;
+}
+
+
+/* 轮播图切换 */
+
+body section.slideshow .detail .detail-item {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+
+/* 轮播图 */
+
+body section.slideshow .detail .detail-item .background {
+    position: absolute;
+    top: -73px;
+    right: 425px;
+    width: 280px;
+    height: 480px;
+    background-size: 280px auto;
+    box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+body section.slideshow .detail .detail-item .background::before {
+    content: "";
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#00000000", GradientType=1);
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+body section.slideshow .detail .detail-item.active {
+    opacity: 1;
+    visibility: visible;
+}

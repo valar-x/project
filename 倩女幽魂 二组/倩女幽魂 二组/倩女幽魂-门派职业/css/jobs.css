@@ -1,0 +1,260 @@
+body {
+  width: 100%;
+  min-width: 1400px;
+}
+.w {
+  width: 1400px;
+  margin: auto;
+}
+#wrap{
+    max-width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+}
+.topBar{
+    position: relative;
+
+}
+.topBar .logo {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 211px;
+    height: 68px;
+    background: url(../images/logo_head.png) no-repeat ;
+}
+.links-nav{
+    position: absolute;
+    top: 30px;
+    right: 40px;    
+}
+.links .links-nav li {
+    float: left;
+    height: 35px;
+    width: 35px;
+}
+
+.links ul .t-icon1 {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: url(../images/links.png) no-repeat 0px 0px;
+}
+.links ul .t-icon2 {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: url(../images/links.png) no-repeat -39px 0px;
+}
+.links ul .t-icon3 {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: url(../images/links.png) no-repeat -80px 0px;
+}
+.links-nav li {
+    margin-left: 10px;
+}
+.links-hide-ul1 {
+  display: none;
+}
+.links .qrCode{
+    position: absolute;
+    right: 16px;
+    top: 34px;
+}
+/* 点击隐藏的盒子 */
+.links-hide-ul  {
+    position: absolute;
+    right: 0px;
+    top: 34px;
+    display: none;
+    width: 30px;
+    background: url(../images/sprite_wechat.png) no-repeat;
+    background-size: 80%;
+}
+
+.links .links-hide-ul li {
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+}
+
+#home {
+    background: url(../images/bg_0f48e738.jpg) no-repeat center top;
+    height: 1080px;
+    width: 100%;
+    /* padding: 50px; */
+}
+/* 人物展示 */
+.role{
+    padding-top: 180px;
+    text-align: center;
+}
+.role ul {
+    display: inline-block; 
+    overflow: hidden; 
+}
+.role ul .huahun a{
+    display: block;
+    background: url(../images/first_huahun.png) no-repeat -199px -175px;
+    width: 140px;
+    height: 670px;
+}
+.role ul .meizhe a{
+    display: block;
+    background: url(../images/first_meizhe.png) no-repeat -208px -125px;
+    width: 140px;
+    height: 670px;
+}
+.role ul .yishi a{
+    display: block;
+    background: url(../images/first_yishi.png) no-repeat -188px -108px;
+    width: 140px;
+    height: 670px;
+}
+.role ul .yiren a{
+  display: block;
+  background: url(../images/first_yiren.png) no-repeat -204px -84px;
+  width: 140px;
+  height: 670px;
+}
+.role ul .sheshou a{
+  display: block;
+  background: url(../images/first_sheshou.png) no-repeat -212px -65px;
+  width: 140px;
+  height: 670px;
+}
+.role ul .daoke a{
+    display: block;
+    background: url(../images/sprite_daoke.png) no-repeat -189px -58px;
+    width: 140px;
+    height: 670px;
+}
+.role ul .yanshi a{
+    display: block;
+    background: url(../images/first_yanshi.png) no-repeat -264px -80px;
+    width: 140px;
+    height: 670px;
+}
+.role ul .fangshi a{
+  display: block;
+  background: url(../images/first_fangshi.png) no-repeat -252px -83px;
+  width: 140px;
+  height: 670px;
+}
+.role ul .xiake a{
+    display: block;
+    background: url(../images/first_xiake.png) no-repeat -287px -90px;
+    width: 140px;
+    height: 670px;
+}
+.role ul .jiashi a{
+    display: block;
+    background: url(../images/first_jiashi.png) no-repeat -352px -126px;
+    width: 140px;
+    height: 670px;
+}
+.role ul li {
+    float: left;
+    width: 140px;
+}
+.role-name{
+  position: relative;
+  width: 100%;
+  height: 230px;
+}
+.role-name a  {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-47%);
+    top: -200px;   
+    height: 100%;
+    width: 100%;
+    background: url(../images/name_role.png) no-repeat;
+}
+.role ul  a {
+  transition: all .2s;
+
+}
+.role ul  a:hover{
+  transform:  scale(1.2);
+}
+.role ul .huahun a:hover,
+.role ul .meizhe a:hover,
+.role ul .jiashi a:hover{
+  transform: translateY(67px) scale(1.2);
+}
+
+/* }footer */
+.footer {
+    max-width: 1920px;
+    height: 73px;
+    text-align: center;
+    background-color: #e2eaee;
+}
+
+.footer-1 {
+    display: inline-block;
+    height: 48px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 15px 0 10px;
+    line-height: 48px;
+}
+
+.link-pic {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.a-link3,
+.a-link4,
+.a-link5,
+.a-link6 {
+    vertical-align: middle;
+    padding: 10px 5px 0;
+}
+
+.link-text {
+    display: inline-block;
+    height: 24px;
+    vertical-align: top;
+    margin-left: 15px;
+    line-height: 10px;
+}
+
+.link-text i {
+    height: 15px;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.link-text-xq {
+    position: relative;
+    height: 35px;
+    line-height: 35px;
+}
+
+.link-text-a a:hover {
+    text-decoration: underline;
+}
+
+.link-text-jz {
+    position: absolute;
+    height: 26px;
+    line-height: 26px;
+    bottom: -10px;
+    right: -327px;
+    background-color: #610000;
+    color: #fff;
+}
+
+.link-text-jz:hover {
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color: black;
+}

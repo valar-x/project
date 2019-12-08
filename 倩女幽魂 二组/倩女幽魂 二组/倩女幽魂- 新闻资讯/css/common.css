@@ -1,0 +1,572 @@
+.topBar-include {
+    height: 55px;
+    background-color: #fff;
+}
+
+.topBar-include .topbar-main {
+    position: relative;
+    width: 100%;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.topBar-include .topbar-main .topbar-menu {
+    position: absolute;
+    display: block;
+    width: 179px;
+    height: 54px;
+    color: #fff;
+    background-color: #cf1132;
+}
+
+.topBar-include .topbar-main .topbar-menu i {
+    display: inline-block;
+    width: 25px;
+    height: 11px;
+    margin-right: 5px;
+    background: url(../images/sprite-w_dd519f4.png) no-repeat -90px -306px;
+}
+
+.topBar-include .topbar-main .topbar-logo {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    display: block;
+    width: 133px;
+    height: 44px;
+    transform: translateX(-50%);
+    background: url(../images/logo_b5525b7.png) no-repeat;
+}
+
+.topBar-include .topbar-main .topbar-right {
+    position: absolute;
+    top: 0;
+    right: 130px;
+    width: 138px;
+    height: 54px;
+    border-left: 1px solid #dadada;
+}
+
+.topBar-include .topbar-main .topbar-right a,
+.topBar-include .topbar-main .topbar-recommend a {
+    color: #333;
+}
+
+.topBar-include .topbar-main .topbar-right a:hover,
+.topBar-include .topbar-main .topbar-recommend a:hover {
+    color: #bc2e2e;
+    background-color: #f3f3f3;
+}
+
+.topBar-include .topbar-main .topbar-recommend {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 129px;
+    height: 54px;
+    border-left: 1px solid #dadada;
+}
+
+.topBar-include .topbar-main .topbar-recommend i {
+    display: inline-block;
+    width: 17px;
+    height: 20px;
+    margin-right: 5px;
+    background: url(../images/sprite-w_dd519f4.png) no-repeat;
+    background-position: -81px -343px;
+    vertical-align: middle;
+}
+
+.topBar-include .topbar-main .topbar-recommend a:hover i {
+    background: url(../images/sprite-w_dd519f4.png) no-repeat;
+    background-position: -98px -343px;
+}
+
+.topBar-include .topbar-bottom {
+    width: 100%;
+    height: 0;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+
+/* 顶部导航栏结束 */
+
+
+/* header 部分开始 */
+
+.header {
+    position: relative;
+}
+
+.header .mask {
+    display: none;
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    height: 303px;
+    overflow: hidden;
+}
+
+.header .mask .mask-con {
+    position: absolute;
+    width: 100%;
+    height: 303px;
+    overflow: hidden;
+    background: url(../images/bg-mask_f78c60a.png) no-repeat;
+}
+
+
+/* 有点小问题，虚化背景不能随屏幕变化而变化 */
+
+.header .header-bg {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 65px;
+    background: url(../images/header-bg1_ff6d56e.png) no-repeat center;
+}
+
+.header .header-nav {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 65px;
+    z-index: 5;
+    background: url(../images/nav-bg_c478483.png) no-repeat center;
+}
+
+.header .header-logo {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    margin-left: -710px;
+    display: block;
+    width: 171px;
+    height: 55px;
+    background: url(../images/logo_0719668.png) no-repeat;
+}
+
+.header .header-wrap {
+    width: 1200px;
+    height: 65px;
+    margin: 0px auto;
+}
+
+.header .wrap-box {
+    width: 1080px;
+    height: 65px;
+    margin-left: 52px;
+}
+
+.header .wrap-li {
+    float: left;
+    width: 135px;
+    height: 65px;
+}
+
+.header .wrap-li .wrap-active {
+    display: block;
+    width: 94px;
+    height: 65px;
+    background: url(../images/nav1_6c8df9d.png) no-repeat;
+    margin: 0 auto;
+}
+
+.header .wrap-li .wrap-nav1 {
+    /* background: url(../images/nav2_18d5d24.png) no-repeat; */
+    background-position: 0 2px;
+}
+
+.header .wrap-li .wrap-nav2 {
+    background: url(../images/nav2_18d5d24.png) no-repeat;
+    background-position: -135px 2px;
+}
+
+.header .wrap-li .wrap-nav2:hover {
+    background: url(../images/nav2_18d5d24.png) no-repeat;
+    background-position: -135px 0;
+}
+
+.header .wrap-li .wrap-nav3 {
+    background-position: -269px 2px;
+}
+
+.header .wrap-li .wrap-nav3:hover {
+    background: url(../images/nav2_18d5d24.png) no-repeat;
+    background-position: -269px 0;
+}
+
+.header .wrap-li .wrap-nav4 {
+    background-position: -401px 2px;
+}
+
+.header .wrap-li .wrap-nav4:hover {
+    background: url(../images/nav2_18d5d24.png) no-repeat;
+    background-position: -401px 0;
+}
+
+.header .wrap-li .wrap-nav5 {
+    background-position: -535px 2px;
+}
+
+.header .wrap-li .wrap-nav5:hover {
+    background: url(../images/nav2_18d5d24.png) no-repeat;
+    background-position: -535px 0;
+}
+
+.header .wrap-li .wrap-nav6 {
+    background-position: -680px 2px;
+}
+
+.header .wrap-li .wrap-nav6:hover {
+    background: url(../images/nav2_18d5d24.png) no-repeat;
+    background-position: -680px 0;
+}
+
+.header .wrap-li .wrap-nav7 {
+    background-position: -809px 2px;
+}
+
+.header .wrap-li .wrap-nav7:hover {
+    background: url(../images/nav2_18d5d24.png) no-repeat;
+    background-position: -809px 0;
+}
+
+.header .wrap-li .wrap-nav8 {
+    background-position: right 2px;
+}
+
+.header .wrap-li .wrap-nav8:hover {
+    background: url(../images/nav2_18d5d24.png) no-repeat;
+    background-position: right 0;
+}
+
+.header .news-navs {
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    height: 85px;
+    z-index: 3;
+    margin: 0 auto;
+    padding: 15px 0 15px 200px;
+}
+
+.header .news-navs li {
+    display: inline-block;
+    width: 110px;
+    height: 85px;
+    margin-right: 80px;
+}
+
+.header .news-navs .news {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/news_7eaa08e.png) no-repeat;
+}
+
+.header .news-navs .news1:hover {
+    background-position: -2px -84px;
+}
+
+.header .news-navs .news2 {
+    background-position: -190px 0px;
+}
+
+.header .news-navs .news2:hover {
+    background-position: -192px -84px;
+}
+
+.header .news-navs .news3 {
+    background-position: -380px 0px;
+}
+
+.header .news-navs .news3:hover {
+    background-position: -382px -84px;
+}
+
+.header .news-navs .news4 {
+    background-position: -570px 0px;
+}
+
+.header .news-navs .news4:hover {
+    background-position: -572px -84px;
+}
+
+.header .news-navs .news5 {
+    background-position: -760px 0px;
+}
+
+.header .news-navs .news5:hover {
+    background-position: -762px -84px;
+}
+
+.header .guide-navs {
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    height: 85px;
+    z-index: 3;
+    padding: 15px 0 15px 325px;
+}
+
+.header .guide-navs li {
+    display: inline-block;
+    width: 110px;
+    height: 85px;
+    margin-right: 80px;
+}
+
+.header .guide-navs .guide {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/guide_f9b74d2.png) no-repeat;
+}
+
+.header .guide-navs .guide1:hover {
+    background-position: -1px -84px;
+}
+
+.header .guide-navs .guide2 {
+    background-position: -190px 0px;
+}
+
+.header .guide-navs .guide2:hover {
+    background-position: -191px -84px;
+}
+
+.header .guide-navs .guide3 {
+    background-position: -380px 0px;
+}
+
+.header .guide-navs .guide3:hover {
+    background-position: -381px -84px;
+}
+
+.header .guide-navs .guide4 {
+    background-position: -570px 0px;
+}
+
+.header .guide-navs .guide4:hover {
+    background-position: -571px -84px;
+}
+
+.header .media-navs {
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    height: 85px;
+    z-index: 3;
+    padding: 15px 0 15px 525px;
+}
+
+.header .media-navs li {
+    display: inline-block;
+    width: 110px;
+    height: 85px;
+    margin-right: 80px;
+}
+
+.header .media-navs .media {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/media_b9e8608.png) no-repeat;
+}
+
+.header .media-navs .media:hover {
+    background-position: 0px -84px;
+}
+
+.header .media-navs .media2 {
+    background-position: -190px 0px;
+}
+
+.header .media-navs .media2:hover {
+    background-position: -190px -84px;
+}
+
+.header .media-navs .media3 {
+    background-position: -380px 0px;
+}
+
+.header .media-navs .media3:hover {
+    background-position: -380px -84px;
+}
+
+.header .map-navs {
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    height: 85px;
+    z-index: 3;
+    padding: 15px 0 15px 650px;
+}
+
+.header .map-navs li {
+    display: inline-block;
+    width: 110px;
+    height: 85px;
+    margin-right: 80px;
+}
+
+.header .map-navs .map {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/map_c45c149.png) no-repeat;
+}
+
+.header .map-navs .map:hover {
+    background-position: -1px -84px;
+}
+
+.header .map-navs .map2 {
+    background-position: -190px 0px;
+}
+
+.header .map-navs .map2:hover {
+    background-position: -191px -84px;
+}
+
+.header .map-navs .map3 {
+    background-position: -380px 0px;
+}
+
+.header .map-navs .map3:hover {
+    background-position: -381px -84px;
+}
+
+.header .job-navs {
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    height: 85px;
+    z-index: 3;
+    padding: 15px 0 15px 305px;
+}
+
+.header .job-navs li {
+    display: inline-block;
+    width: 66px;
+    height: 85px;
+    margin-right: 25px;
+}
+
+.header .job-navs .job {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/job_b4f5769.png) no-repeat;
+}
+
+.header .job-navs .jobshenbing {
+    display: block;
+    width: 102px;
+    height: 76px;
+    background: url(../images/nav-job-shenbing_910f52d.png) no-repeat;
+}
+
+.header .job-navs .jobshenbing:hover {
+    background: url(../images/nav-job-shenbing-hover_6d33c1b.png) no-repeat;
+}
+
+.header .job-navs .job:hover {
+    background-position: 0px -84px;
+}
+
+.header .job-navs .job2 {
+    background-position: -112px 0px;
+}
+
+.header .job-navs .job2:hover {
+    background-position: -112px -84px;
+}
+
+.header .job-navs .job3 {
+    background-position: -224px 0px;
+}
+
+.header .job-navs .job3:hover {
+    background-position: -224px -84px;
+}
+
+.header .job-navs .job4 {
+    background-position: -336px 0px;
+}
+
+.header .job-navs .job4:hover {
+    background-position: -336px -84px;
+}
+
+.header .job-navs .job5 {
+    background-position: -448px 0px;
+}
+
+.header .job-navs .job5:hover {
+    background-position: -448px -84px;
+}
+
+.header .job-navs .job6 {
+    background-position: -560px 0px;
+}
+
+.header .job-navs .job6:hover {
+    background-position: -560px -84px;
+}
+
+.header .job-navs .job7 {
+    background-position: -672px 0px;
+}
+
+.header .job-navs .job7:hover {
+    background-position: -672px -84px;
+}
+
+.header .job-navs .job8 {
+    background-position: -784px 0px;
+}
+
+.header .job-navs .job8:hover {
+    background-position: -784px -84px;
+}
+
+.header .job-navs .job9 {
+    background-position: -896px 0px;
+}
+
+.header .job-navs .job9:hover {
+    background-position: -896px -84px;
+}
+
+.header .job-navs .job10 {
+    background-position: -1008px 0px;
+}
+
+.header .job-navs .job10:hover {
+    background-position: -1008px -84px;
+}
+
+.header .drop-luntan {
+    display: none;
+    position: absolute;
+    top: 65px;
+    right: 425px;
+    width: 117px;
+    height: 186px;
+    background: url(../images/luntan_fe6486c.png) no-repeat;
+    z-index: 3;
+}

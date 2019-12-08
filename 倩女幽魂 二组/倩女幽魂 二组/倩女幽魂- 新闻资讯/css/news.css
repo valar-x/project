@@ -1,0 +1,231 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    margin: 0 auto;
+    width: 1440px;
+    height: 2040px;
+    background: url(../images/bg.png) no-repeat top center;
+    padding-top: 430px;
+    /* padding-bottom: 600px; */
+}
+
+.sousuo input {
+    width: 187px;
+    height: 29px;
+    padding-left: 20px;
+    line-height: 29px;
+    display: block;
+    float: left;
+    border: 0;
+    outline: 0;
+    color: rgb(54, 54, 54);
+    background-image: url(../images/search-bg_edd4877.png);
+    background-color: transparent;
+}
+
+.sousuo button {
+    width: 53px;
+    height: 29px;
+    display: inline-block;
+    border: none;
+    background-repeat: no-repeat;
+    outline: none;
+    background-color: #56A3E0;
+    color: #fff;
+}
+
+.sousuo button:hover {
+    background-color: #1C74E5;
+}
+
+.left-box {
+    float: left;
+    width: 260px;
+    height: 677px;
+    position: relative;
+    background-color: pink;
+    margin-top: 3px;
+    background: url(../images/index_z_cec3ec2.png);
+}
+
+.left-wx {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.inner-left-ios {
+    display: block;
+    margin: 15px 45px 10px;
+    width: 170px;
+    height: 50px;
+    background: url(../images/index_z_cec3ec2.png) no-repeat;
+    background-position: -527px -51px;
+}
+
+.inner-left-and {
+    display: block;
+    width: 170px;
+    height: 50px;
+    background: url(../images/index_z_cec3ec2.png) no-repeat;
+    background-position: -525px -152px;
+    margin: 0 auto;
+}
+
+.inner-left-ios:hover {
+    background-position: -527px 0;
+}
+
+.inner-left-and:hover {
+    background-position: -525px -102px;
+}
+
+.wx_wb {
+    position: relative;
+    box-sizing: border-box;
+    width: 235px;
+    height: 310px;
+    padding-top: 35px;
+    padding-left: 45px;
+    /* background-color: aqua; */
+}
+
+.wx_wb a {
+    /* position: absolute; */
+    z-index: 2;
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-left: 3px;
+    width: 34px;
+    height: 34px;
+}
+
+.wx_wb #icon1 {
+    background: url(../images/index_z_cec3ec2.png);
+    background-position: -656px -203px;
+}
+
+.wx_wb #icon2 {
+    /* left: 34px;
+    top: 0; */
+    background: url(../images/index_z_cec3ec2.png);
+    background-position: -623px -202px
+}
+
+.weixin {
+    width: 168px;
+    height: 210px;
+    background: url(../images/index_z_cec3ec2.png);
+    background-position: -260px 0;
+}
+
+.weibo {
+    width: 168px;
+    height: 210px;
+    background: url(../images/index_z_cec3ec2.png);
+    background-position: -260px -210px;
+}
+
+.content-box {
+    float: left;
+    position: relative;
+    padding: 0 15px;
+    width: 900px;
+}
+
+.content-title {
+    height: 100px;
+    border-bottom: 4px solid #d4dee5;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    color: #000;
+    background: url(../images/inner_title_68f8771.png) no-repeat left -30px;
+}
+
+.list-box {
+    padding: 30px 50px 0;
+    min-height: 1000px;
+}
+
+.tab-title {
+    height: 61px;
+    width: 800px;
+    background: url(../images/nav_1bb0d19.png) no-repeat 0 -61px;
+}
+
+.tab-title li a {
+    float: left;
+    display: block;
+    height: 61px;
+    width: 160px;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-position-y: -61px;
+}
+
+.tab-title li a:hover {
+    background: url(../images/nav_1bb0d19.png) no-repeat;
+}
+
+.tab-title .tab-title-2:hover {
+    background-position: -160px 0;
+}
+
+.tab-title .tab-title-3:hover {
+    background-position: -320px 0;
+}
+
+.tab-title .tab-title-4:hover {
+    background-position: -480px 0;
+}
+
+.tab-title .tab-title-5:hover {
+    background-position: -640px 0;
+}
+
+.list-box .news-list li {
+    list-style: none;
+    box-sizing: border-box;
+    padding: 22px 0;
+    *padding: 0;
+    height: 65px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    line-height: 20px;
+    background: url(../images/list-img_915afc0.png) no-repeat left -210px;
+}
+
+.news-list li .type {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    margin-left: 30px;
+    padding: 0 10px;
+    border-radius: 3px;
+    background-color: #596e8e;
+    color: #fff;
+}
+
+.news-list li .time {
+    float: right;
+}
+
+.content-box .list-box .news-list li a {
+    margin-left: 12px;
+    color: #000;
+}
+
+.content-box .list-box .news-list li a:hover {
+    color: #62a1c9;
+}
+
+.list-2,
+.list-3,
+.list-4,
+.list-5 {
+    display: none;
+}

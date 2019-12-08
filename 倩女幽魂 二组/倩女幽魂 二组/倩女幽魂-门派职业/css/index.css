@@ -1,0 +1,128 @@
+
+
+/* header NAV 部分结束  公共部分结束 */
+
+.out-bg div video {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.out-bg .wink-wrap {
+    position: fixed;
+    left: -24px;
+    bottom: 30px;
+    width: 300px;
+    height: 300px;
+    background: url(../images/wink_ff96545.png) no-repeat;
+    animation: winksprite 3s steps(45) infinite;
+}
+
+@keyframes winksprite {
+    0% {
+        background-position-y: 0;
+    }
+    100% {
+        background-position-y: -13500px;
+    }
+}
+
+.out-bg .wink-wrap a {
+    position: absolute;
+    right: 15px;
+    top: 4px;
+    display: block;
+    width: 150px;
+    height: 95px;
+}
+
+.out-bg .wink-wrap .close-wink {
+    display: block;
+    position: absolute;
+    top: 27px;
+    right: 228px;
+    width: 36px;
+    height: 36px;
+    background: url(../images/main_z_bab461f.png) no-repeat;
+    background-position: -585px -500px;
+}
+
+.out-bg .video-close {
+    position: absolute;
+    top: 364px;
+    left: 50%;
+    margin-left: -197px;
+    height: 62px;
+    width: 101px;
+    cursor: pointer;
+    background: url(../images/btn-play1_52ddacd.png) no-repeat;
+}
+
+.out-bg .video-player {
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.out-bg .video-player .close-pv {
+    cursor: pointer;
+    position: absolute;
+    right: -48px;
+    top: 0;
+    width: 48px;
+    height: 48px;
+    background: url(../images/main_z_bab461f.png) no-repeat;
+    background-position: -1041px -733px;
+}
+
+.out-bg .bd-libao {
+    position: absolute;
+    top: 645px;
+    left: 50%;
+    margin-left: -589px;
+    width: 93px;
+    height: 104px;
+    background: url(../images/main_z_bab461f.png) no-repeat;
+    background-position: -405px -452px;
+}
+
+.out-bg .bd-libao a {
+    display: block;
+    width: 86px;
+    height: 22px;
+    position: absolute;
+    left: 7px;
+    bottom: 0;
+}
+
+.out-bg .bd-libao:hover {
+    background-position: -740px -450px;
+}
+
+.out-bg .server-wrap {
+    position: absolute;
+    height: 111px;
+    width: 434px;
+    top: 660px;
+    left: 50%;
+    margin-left: -636px;
+    background: url(../images/main_z_bab461f.png) no-repeat;
+    background-position: 0px -814px;
+}
+
+.out-bg .server-wrap a {
+    display: block;
+    position: absolute;
+    top: 53px;
+    left: 161px;
+    width: 50px;
+    height: 19px;
+    background: url(../images/main_z_bab461f.png) no-repeat;
+    background-position: -349px -307px;
+}
+
+.out-bg .server-wrap a:hover {
+    background-position: -808px -556px;
+}

@@ -1,0 +1,387 @@
+/* <!--guide--> */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+input {
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hotwords {
+    width: 1400px;
+    height: 410px;
+    /* 记得修改 */
+    margin: 100px auto;
+    background-color: #fff;
+    animation: goto .2s .2s both;
+}
+
+
+/* 游戏资料*/
+
+.hotwords-left {
+    position: relative;
+    float: left;
+    width: 500px;
+    height: 410px;
+}
+
+.hotwords-left a:hover {
+    color: #62a1c9;
+}
+
+.dataTitle {
+    width: 437px;
+    height: 48px;
+    margin-top: 15px;
+    margin-left: 25px;
+    background: url(../img/main-jlt.png) no-repeat 0 -925px;
+}
+
+.more {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 28px;
+    color: #56a3e0;
+    transition: all .3s;
+}
+
+.more:hover {
+    transform: rotate(360deg);
+}
+
+.xinshou {
+    width: 462px;
+    height: 85px;
+    padding: 8px 0 8px 10px;
+    margin: 0 auto;
+    /* background-color: yellow; */
+}
+
+.xs1 {
+    float: left;
+    width: 80px;
+    height: 75px;
+    background: url(../img/xinshou_5bea07a.png) no-repeat 1px 38px;
+}
+
+.xinshou a {
+    float: left;
+    display: block;
+    width: 92px;
+    height: 100px;
+    text-align: center;
+    color: #333;
+}
+
+.xinshou a div {
+    overflow: hidden;
+    width: 92px;
+    height: 62px;
+    border-left: 1px dashed #d4d1c4;
+}
+
+.xinshou a:nth-of-type(1) div {
+    border: 0;
+}
+
+.xinshou a div span {
+    display: block;
+    width: 39px;
+    height: 38px;
+    margin: 15px auto 5px;
+    background: url(../img/main-jlt.png) no-repeat -1061px -477px;
+    transition: all .2s;
+}
+
+.xinshou a span:hover {
+    transform: scale(1.2);
+}
+
+.xinshou .p2 span {
+    width: 26px;
+    height: 41px;
+    background-position: -1061px -436px;
+}
+
+.xinshou .p3 span {
+    width: 40px;
+    height: 43px;
+    background-position: -349px -229px;
+}
+
+.xinshou .p4 span {
+    width: 35px;
+    height: 35px;
+    background-position: -833px -450px;
+}
+
+
+/* left2 */
+
+.rumen {
+    padding: 8px 20px;
+    background: #e5f4ff;
+    height: 65px;
+}
+
+.rm {
+    float: left;
+    width: 75px;
+    height: 62px;
+    background: url(../img/rumen_ef89dca.png) no-repeat 4px 22px;
+}
+
+.js {
+    float: left;
+    width: 385px;
+    /* margin-left: 5px; */
+}
+
+.js a {
+    float: left;
+    width: 95px;
+    text-align: center;
+    margin-top: 8px;
+    border-right: 1px dashed #ccc;
+}
+
+.js a:nth-of-type(4),
+.js a:nth-of-type(8) {
+    border: 0;
+}
+
+
+/* left3 */
+
+.jinjie {
+    padding: 8px 20px;
+    background: #c0e3ff;
+    height: 65px;
+}
+
+.jj {
+    float: left;
+    width: 75px;
+    height: 62px;
+    background: url(../img/jinjie_024f48f.png) no-repeat 4px 22px;
+}
+
+.zb {
+    float: left;
+    width: 385px;
+}
+
+.zb a {
+    float: left;
+    width: 95px;
+    text-align: center;
+    margin-top: 8px;
+    border-right: 1px dashed #ccc;
+}
+
+.zb a:nth-of-type(4),
+.zb a:nth-of-type(8) {
+    border: 0;
+}
+
+
+/* left4 */
+
+.search {
+    padding: 20px 0 0 35px;
+}
+
+.search input {
+    float: left;
+    width: 320px;
+    height: 48px;
+    border: 1px solid #ccc;
+}
+
+.search input {
+    border-right: 0;
+    color: #aaa;
+    padding-left: 15px;
+}
+
+.search a {
+    float: left;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background-color: #ff7481;
+}
+
+
+/* <!--论坛和频道--> */
+
+.hotwords-middle {
+    position: relative;
+    float: left;
+    width: 446px;
+    height: 410px;
+    margin-left: 4px;
+}
+
+.hotwords-middle .dataTitle {
+    width: 365px;
+    height: 48px;
+    margin-top: 15px;
+    margin-left: 41px;
+    background: url(../img/main-jlt.png) no-repeat -434px -862px;
+}
+
+.bbs {
+    width: 370px;
+    margin: 15px 0 5px 40px;
+}
+
+.bbs a:nth-child(1) img {
+    margin-right: 10px;
+}
+
+.bbsli {
+    width: 370px;
+    margin-left: 38px;
+}
+
+.bbsli li {
+    line-height: 28px;
+}
+
+.bbsli a {
+    float: left;
+    width: 295px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #444;
+}
+
+.bbsli li:hover a,
+.bbsli li:hover span {
+    color: rgb(248, 4, 98)!important;
+}
+
+.bbsli span {
+    float: right;
+    color: #a3a4a3;
+}
+
+
+/* <!--梦岛热门--> */
+
+.hotwords-right {
+    position: relative;
+    float: left;
+    width: 446px;
+    height: 410px;
+    margin-left: 4px;
+}
+
+.hotwords-right .dataTitle {
+    width: 365px;
+    height: 48px;
+    margin-top: 15px;
+    margin-left: 40px;
+    background: url(../img/main-jlt.png) no-repeat -434px -814px;
+}
+
+.hotdoor {
+    width: 365px;
+    height: 330px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.li-l {
+    float: left;
+}
+
+.li-l img {
+    width: 40px;
+}
+
+.li-r {
+    float: right;
+    width: 290px;
+}
+
+.md-name {
+    color: #2d4076;
+    padding: 5px;
+}
+
+.md-word {
+    padding-right: 25px;
+    color: #66FF66;
+}
+
+.md-info {
+    margin-top: 5px;
+    color: #848a97;
+}
+
+.md-time,
+.md-heart,
+.md-ms {
+    float: left;
+    margin-right: 30px;
+}
+
+.md-info i {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url(../img/main-jlt.png) no-repeat -833px -524px;
+    vertical-align: middle;
+}
+
+.md-heart i {
+    background-position: -935px -785px;
+}
+
+.md-ms i {
+    background-position: -850px -524px;
+}
+
+.line {
+    float: left;
+    width: 370px;
+    height: 4px;
+    background: url(../img/main-jlt.png) no-repeat -434px -910px;
+    margin: 5px auto;
+}
+
+.hotdoor li:nth-child(2) .md-word {
+    color: #ca7027;
+    font-style: italic;
+}
+
+@keyframes goto {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px)
+    }
+}

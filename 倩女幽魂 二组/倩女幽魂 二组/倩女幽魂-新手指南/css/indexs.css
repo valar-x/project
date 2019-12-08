@@ -1,0 +1,466 @@
+        .nav {
+            width: 100%;
+            height: 50px;
+            background-color: pink;
+        }
+        /* 滚动条 */
+        
+        .x-side {
+            display: none;
+            position: fixed;
+            top: 100px;
+            right: 30px;
+            width: 144px;
+            height: 379px;
+            background: url(../images/slide_69e0326.png) -21px 0;
+            z-index: 99;
+        }
+        
+        .x-side ul {
+            position: absolute;
+            top: 35px;
+            left: -21px;
+        }
+        
+        .x-side li {
+            width: 164px;
+            height: 52px;
+        }
+        
+        .x-side ul .current1 {
+            background: url(../images/slide-hover_5c5de84.png) no-repeat 0 -34px;
+        }
+        
+        .x-side ul li:nth-child(1):hover {
+            background: url(../images/slide-hover_5c5de84.png) no-repeat 0 -34px;
+        }
+        
+        .x-side ul .current2 {
+            background: url(../images/slide-hover_5c5de84.png) no-repeat 0 -87px;
+        }
+        
+        .x-side ul li:nth-child(2):hover {
+            background: url(../images/slide-hover_5c5de84.png) no-repeat 0 -87px;
+        }
+        
+        .x-side ul .current3 {
+            background: url(../images/slide-hover_5c5de84.png) no-repeat 0 -138px;
+        }
+        
+        .x-side ul li:nth-child(3):hover {
+            background: url(../images/slide-hover_5c5de84.png) no-repeat 0 -138px;
+        }
+        
+        .x-side ul .current4 {
+            background: url(../images/slide-hover_5c5de84.png) no-repeat 0 -190px;
+        }
+        
+        .x-side ul li:nth-child(4):hover {
+            background: url(../images/slide-hover_5c5de84.png) no-repeat 0 -190px;
+        }
+        
+        .x-side ul .current5 {
+            background: url(../images/slide-hover_5c5de84.png) no-repeat 0 -243px;
+        }
+        
+        .x-side ul li:nth-child(5):hover {
+            background: url(../images/slide-hover_5c5de84.png) no-repeat 0 -243px;
+        }
+        
+        .x-side ul li:nth-child(6):hover {
+            background: url(../images/slide-hover_5c5de84.png) no-repeat 0 -294px;
+        }
+        /* banner */
+        
+        .x-banner {
+            position: absolute;
+            top: 119px;
+            width: 100%;
+            height: 926px;
+            background-color: yellow;
+            background: url(../images/bg1_839fe99.jpg) no-repeat center center;
+        }
+        
+        .w {
+            position: relative;
+            width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .x-wx {
+            position: absolute;
+            top: 650px;
+            right: 317px;
+            width: 201px;
+            height: 214px;
+            background: url(../images/xszn_z_d418581.png);
+        }
+        
+        .x-apple,
+        .x-android {
+            position: absolute;
+            width: 207px;
+            height: 61px;
+        }
+        
+        .x-apple {
+            top: 678px;
+            right: 76px;
+            background: url(../images/xszn_z_d418581.png) no-repeat -414px 0;
+        }
+        
+        .x-apple:hover {
+            background: url(../images/xszn_z_d418581.png) no-repeat -414px -61px;
+        }
+        
+        .x-android {
+            top: 760px;
+            right: 76px;
+            background: url(../images/xszn_z_d418581.png) no-repeat 0 -336px;
+        }
+        
+        .x-android:hover {
+            background-position: -207px -336px;
+        }
+        
+        .x-play {
+            position: absolute;
+            top: 300px;
+            right: 419px;
+            width: 87px;
+            height: 87px;
+            background: url(../images/play_d663b01.png) no-repeat;
+        }
+        
+        .x-play img {
+            margin: 25px 36px;
+            animation: scale .7s infinite;
+        }
+        
+        @keyframes scale {
+            0% {
+                transform: scale(1);
+                opacity: .4;
+            }
+            100% {
+                transform: scale(1.2);
+                opacity: 1;
+            }
+        }
+        /* 第二阶段 */
+        
+        .x-two {
+            width: 100%;
+            height: 630px;
+            margin-top: 630px;
+            background: url(../images/repeat_d770db4.jpg);
+        }
+        
+        .x-two h3 {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%);
+            z-index: 3;
+        }
+        
+        .x-aside {
+            position: absolute;
+            top: 30px;
+            left: 0;
+        }
+        
+        .x-aside li a {
+            display: block;
+            width: 100px;
+            height: 57px;
+            background: url(../images/j-nav_38ead8d.png) no-repeat;
+            margin-bottom: 4px;
+        }
+        
+        .x-aside li a:hover {
+            background: url(../images/j-nav-hover_a470700.png) no-repeat;
+        }
+        
+        .x-aside .x-nav1 {
+            background-position: 3px 0;
+        }
+        
+        .x-aside .x-nav1:hover {
+            background-position: -2px 0;
+        }
+        
+        .x-aside .x-nav2 {
+            background-position: 3px -68px;
+        }
+        
+        .x-aside .x-nav2:hover {
+            background-position: -2px -59px;
+        }
+        
+        .x-aside .x-nav3 {
+            background-position: 3px -124px;
+        }
+        
+        .x-aside .x-nav3:hover {
+            background-position: -2px -116px;
+        }
+        
+        .x-aside .x-nav4 {
+            background-position: 3px -181px;
+        }
+        
+        .x-aside .x-nav4:hover {
+            background-position: -2px -172px;
+        }
+        
+        .x-aside .x-nav5 {
+            background-position: 3px -238px;
+        }
+        
+        .x-aside .x-nav5:hover {
+            background-position: -2px -229px;
+        }
+        
+        .x-aside .x-nav6 {
+            background-position: 3px -295px;
+        }
+        
+        .x-aside .x-nav6:hover {
+            background-position: -2px -286px;
+        }
+        
+        .x-aside .x-nav7 {
+            background-position: 3px -352px;
+        }
+        
+        .x-aside .x-nav7:hover {
+            background-position: -2px -343px;
+        }
+        
+        .x-aside .x-nav8 {
+            background-position: 3px -409px;
+        }
+        
+        .x-aside .x-nav8:hover {
+            background-position: -2px -399px;
+        }
+        
+        .x-aside .x-nav9 {
+            background-position: 3px -466px;
+        }
+        
+        .x-aside .x-nav9:hover {
+            background-position: -2px -456px;
+        }
+        
+        .x-aside .x-nav10 {
+            background-position: 3px -523px;
+        }
+        
+        .x-aside .x-nav10:hover {
+            background-position: -2px -513px;
+        }
+        
+        .x-slide img {
+            position: absolute;
+            top: -30px;
+            left: 12px;
+            z-index: 0;
+        }
+        
+        .x-content {
+            position: absolute;
+            left: 296px;
+            /* float: right; */
+            width: 970px;
+            height: 625px;
+            /* overflow: hidden; */
+        }
+        
+        .x-con {
+            position: relative;
+        }
+        
+        .x-tit {
+            position: absolute;
+            top: 117px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+        }
+        
+        .x-con p {
+            position: absolute;
+            top: 270px;
+            left: 0;
+            width: 300px;
+            color: #333;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        
+        .x-con-pic1,
+        .x-con-pic2 {
+            position: absolute;
+            top: 353px;
+            left: 0;
+        }
+        
+        .x-con-pic2 {
+            left: 93px;
+        }
+        
+        .x-text1,
+        .x-text2 {
+            position: absolute;
+            top: 400px;
+            width: 180px;
+            color: #333;
+            font-size: 14px;
+            line-height: 1.5;
+            font-family: '楷体';
+            border: 2px solid #c2a66a;
+            padding: 4px;
+            z-index: 22;
+        }
+        
+        .x-text1 {
+            left: 100px;
+        }
+        
+        .x-text2 {
+            left: 202px;
+        }
+        
+        .x-btn {
+            position: absolute;
+            top: 480px;
+            left: 0px;
+            width: 190px;
+            height: 52px;
+            background: url(../images/xszn_z_d418581.png) no-repeat -413px -122px;
+        }
+        
+        .x-btn:hover {
+            background-position: -413px -174px;
+        }
+        
+        .x-wuxing {
+            position: absolute;
+            top: 359px;
+            left: 233px;
+        }
+        
+        .x-man,
+        .x-woman {
+            position: absolute;
+            left: 458px;
+            width: 37px;
+            height: 40px;
+            background: url(../images/sex_8a49b25.png) no-repeat;
+            z-index: 1;
+        }
+        
+        .x-man {
+            top: 260px;
+            background-position: 0 0;
+        }
+        
+        .x-man:hover {
+            background: url(../images/sex-hover_8415a95.png) no-repeat 0 0;
+        }
+        
+        .x-woman {
+            top: 308px;
+            background-position: 0 -50px;
+        }
+        
+        .x-woman:hover {
+            background: url(../images/sex-hover_8415a95.png) no-repeat 0 -50px;
+        }
+        
+        .x-man-pic,
+        .x-woman-pic {
+            position: absolute;
+            top: -1px;
+        }
+        
+        .ss .x-man-pic {
+            right: -293px;
+        }
+        
+        .ss .x-woman-pic {
+            right: -53px;
+        }
+        
+        .xk .x-man-pic {
+            right: -203px;
+        }
+        
+        .xk .x-woman-pic {
+            right: -300px;
+        }
+        
+        .ys .x-man-pic {
+            right: -83px;
+        }
+        
+        .ys .x-woman-pic {
+            right: -300px;
+        }
+        
+        .hh .x-man-pic {
+            right: -308px;
+        }
+        
+        .hh .x-woman-pic {
+            right: -100px;
+        }
+        
+        .dk .x-man-pic {
+            right: -108px;
+        }
+        
+        .dk .x-woman-pic {
+            right: -100px;
+        }
+        
+        .js .x-man-pic {
+            right: -308px;
+        }
+        
+        .js .x-woman-pic {
+            right: -300px;
+        }
+        
+        .fs .x-man-pic {
+            right: -108px;
+        }
+        
+        .fs .x-woman-pic {
+            right: -400px;
+        }
+        
+        .yans .x-man-pic {
+            right: -308px;
+        }
+        
+        .yans .x-woman-pic {
+            right: -100px;
+        }
+        
+        .mz .x-man-pic {
+            right: -308px;
+        }
+        
+        .mz .x-woman-pic {
+            right: -100px;
+        }
+        
+        .yr .x-man-pic {
+            right: -308px;
+        }
+        
+        .yr .x-woman-pic {
+            right: -100px;
+        }

@@ -1,0 +1,116 @@
+.out-bg6 {
+    /* position: relative; */
+    height: 845px;
+    overflow: hidden;
+    background: url(../images/bg6_69f0e2a.jpg) no-repeat center top;
+}
+.out-bg6 .main {
+    width: 1400px;
+    /* height: 630px; */
+    margin: 0 auto;
+}
+.out-bg6 .qrcodes {
+    /* position: relative; */
+    width: 1355px;
+    margin: 142px auto 0;
+    height: 300px;
+}
+.out-bg6 .qrcodes .q-box {
+    position: relative;
+    float: left;
+    width: 344px;
+    height: 300px;
+    margin-right: 21px;
+    text-align: center;
+    /* overflow: hidden; */
+}
+.out-bg6 .qrcodes .q-box a {
+    display: block;
+    /* margin-top: 193px; */
+    color: #ff7481;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.out-bg6 .qrcodes>div a:hover {
+    color: #ca1f1f;
+}
+.out-bg6 .qrcodes .phone {
+    margin-right: 0;
+    width: 254px;
+    height: 191px;
+    background: url(../images/foot-phone_64d1396.png) no-repeat;    
+}
+.out-bg6 .qrcodes .kefu,
+.out-bg6 .qrcodes .cangbao {
+    /* display: inline-block; */
+    position: absolute;
+    margin: 67px 0 0 80px;
+}
+.out-bg6 .qrcodes .cangbao {
+    margin-top: 153px;
+}
+.share {
+    margin-top: 45px;
+    margin-bottom: 50px;
+    height: 40px;
+}
+.share img {
+    display: block;
+    margin: 0 auto;
+}
+.footer {
+    padding: 20px 0;
+}
+.copyright {
+    width: 1204px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 15px 0 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.copyright .cn-logo {
+    display: inline-block;
+    vertical-align: middle;
+    height: 48px;
+    min-width: 300px;
+}
+.copyright .cn-logo a {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2px;
+}
+.copyright .cn-logo img {
+    padding-right: 15px;
+    padding-top: 5px;
+    border: 0;
+    vertical-align: middle;
+}
+.copyright .cn-logo .a0 img {
+    padding-right: 0;
+}
+.copyright .cn-nav {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    z-index: 1;
+    color: #000;
+    line-height: 20px;
+}
+.copyright .cn-nav .cn-guardianship {
+    display: inline-block;
+    color: #fff;
+    background-color: #610000;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 3px;
+    top: 21px;
+}
+.copyright .part2 {
+    padding-top: 10px;
+    line-height: 24px;
+    color: #000;
+}
